@@ -12,4 +12,6 @@ python main.py
 python test.py
 
 ```
+### Hướng dẫn chạy mô hình ANN trên colab:
+Mở file ANN.ipynb bằng colab, tải file 2 file numpy trong folder data và đưa lên drive, fix đường dẫn phù hợp.
 
