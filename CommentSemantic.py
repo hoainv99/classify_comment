@@ -6,8 +6,8 @@ import joblib
 
 class CommentSemantic:
     def __init__(self):
-        self.w2v = Word2Vec.load(r'D:\20192\machine_learning\Code_ML\model\last_w2v_model.model')
-        self.svm_model = joblib.load(r'D:\20192\machine_learning\last_model.sav')
+        self.w2v = Word2Vec.load('model\last_w2v_model.model')
+        self.svm_model = joblib.load('model\SVM_model.model')
         self.remove = ['(', ')', '^', '"', '?', '!', '.', '❤️', ':', 'T^T']
 
     def __processing_data(self, data):
