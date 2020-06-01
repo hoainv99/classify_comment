@@ -1,8 +1,0 @@
-numpy
-sklearn
-pandas
-re
-gensim
-torch
-python==3.6.8
-
