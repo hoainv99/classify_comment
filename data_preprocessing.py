@@ -5,7 +5,6 @@ import smart_open
 import string
 import sys
 import csv
-import data_processing as dp
 from nltk import word_tokenize
 # from underthesea import word_tokenize
 #get data has one column
